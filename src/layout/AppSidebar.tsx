@@ -137,13 +137,13 @@ const AppSidebar: React.FC = () => {
                 <span className={`menu-item-text`}>{nav.name}</span>
               )}
               {(isExpanded || isHovered || isMobileOpen) && (
-                <ChevronDownIcon
-                  className={`ml-auto w-5 h-5 transition-transform duration-200  ${openSubmenu?.type === menuType &&
-                    openSubmenu?.index === index
-                    ? "rotate-180 text-brand-500"
-                    : ""
-                    }`}
-                />
+                <span className={`ml-auto transition-transform duration-200 ${openSubmenu?.type === menuType &&
+                  openSubmenu?.index === index
+                  ? "rotate-180 text-brand-500"
+                  : ""
+                  }`}>
+                  <ChevronDownIcon className="w-5 h-5" />
+                </span>
               )}
             </button>
           ) : (
@@ -311,13 +311,13 @@ const AppSidebar: React.FC = () => {
             <>
               <div className="flex items-center gap-2 px-2">
                 <Image
-                  src="/images/logo/logo-icon.svg"
+                  src="/images/logo/custom-logo.png"
                   alt="Logo"
                   width={32}
                   height={32}
                 />
                 <span className="text-xl font-bold text-gray-800 dark:text-white">
-                  Admin
+                  Admin Dashboard
                 </span>
               </div>
             </>
