@@ -29,7 +29,7 @@ export default function AddProductForm() {
 
                 <div className="mb-4">
                     <Label>Price</Label>
-                    <Input type="text" placeholder="$$$" />
+                    <Input type="text" placeholder="₹" />
                 </div>
 
                 <div className="mb-6">
