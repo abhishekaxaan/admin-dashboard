@@ -8,6 +8,11 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "Admin Dashboard - Abhishek Kumar Singh",
+  description: "Personalized E-commerce Admin Dashboard",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

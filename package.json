@@ -1,6 +1,8 @@
 {
-  "name": "free-nextjs-admin-dashboard",
-  "version": "2.2.2",
+  "name": "admin-dashboard-abhishek",
+  "version": "1.0.0",
+  "description": "Admin Dashboard developed by Abhishek Kumar Singh",
+  "author": "Abhishek Kumar Singh",
   "private": true,
   "scripts": {
     "dev": "next dev",
