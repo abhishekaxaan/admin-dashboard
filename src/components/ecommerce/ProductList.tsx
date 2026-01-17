@@ -91,11 +91,11 @@ export default function ProductList() {
                                 </td>
                                 <td className="border-b border-gray-100 p-4 dark:border-gray-800">
                                     <div className="flex items-center space-x-3.5">
-                                        <span className="hover:text-primary">
-                                            <PencilIcon className="w-5 h-5 fill-current" />
+                                        <span className="hover:text-primary transition-colors flex items-center justify-center w-5 h-5 [&>svg]:w-full [&>svg]:h-full [&>svg]:fill-current">
+                                            <PencilIcon />
                                         </span>
-                                        <span className="hover:text-red-500">
-                                            <TrashBinIcon className="w-5 h-5 fill-current" />
+                                        <span className="hover:text-red-500 transition-colors flex items-center justify-center w-5 h-5 [&>svg]:w-full [&>svg]:h-full [&>svg]:fill-current">
+                                            <TrashBinIcon />
                                         </span>
                                     </div>
                                 </td>
